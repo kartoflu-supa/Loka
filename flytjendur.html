@@ -1,0 +1,12 @@
+---
+title: Flytjendur
+---
+<ul>
+    {% for author in site.authors %}
+    <h1>Gaman...</h1>    
+    <li>
+            <h2><a href="{{ author.url | relative_url }}">{{ author.name }}</a></h2>
+            <p>{{ author.desc }}</p>
+        </li>
+    {% endfor %}
+</ul>

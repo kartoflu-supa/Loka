@@ -1,2 +1,8 @@
 - name: Heima er best
   link: /
+- name: Um okkur
+  link: /about.md
+- name: Skráningar form
+  link: /form.html
+- name: Flytjendur
+  link: /flytjendur.html
